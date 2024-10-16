@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Dashboard from "../components/Dashboard";
 
 export default function Home() {
   return (
     <>
-      <h1>Home</h1>
+      <main className="max-w-7xl mx-auto ">
+        <Dashboard />
+      </main>
     </>
   );
 }
