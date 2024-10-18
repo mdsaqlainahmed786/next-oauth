@@ -5,8 +5,8 @@ export default function Home() {
   useEffect(() => {
     const fecthingUser = async () => {
       const res = await fetch("/api/getUser");
-      const data = await res.json();
-      console.log(data);
+      // const data = await res.json();
+      // console.log(data);
     };
     fecthingUser();
   }, []);
