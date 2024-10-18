@@ -12,7 +12,7 @@ const Dashboard = () => {
         <div role="status">
           <svg
             aria-hidden="true"
-            class="w-16 h-16 text-gray-200 animate-spin dark:text-gray-600 fill-[#121212]"
+            className="w-16 h-16 text-gray-200 animate-spin dark:text-gray-600 fill-[#121212]"
             viewBox="0 0 100 101"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ const Dashboard = () => {
               fill="currentFill"
             />
           </svg>
-          <span class="sr-only">Loading...</span>
+          <span className="sr-only">Loading...</span>
         </div>
       </div>
     );
